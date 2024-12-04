@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ludo Game with UPI Donation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ludo Game</h1>
+
+  <!-- Game Board -->
+  <div id="board"></div>
+
+  <!-- Dice Roll -->
+  <div id="dice-container">
+    <button id="roll-dice">Roll Dice</button>
+    <p id="dice-result"></p>
+  </div>
+
+  <!-- Player Turn Display -->
+  <div id="player-turn"></div>
+
+  <!-- Donation Button -->
+  <button id="donate-button">Donate</button>
+
+  <!-- UPI ID Display -->
+  <div id="donation-info" style="display:none;">
+    <p>To donate, please send your contribution to:</p>
+    <p>UPI ID: <strong>8934048188@fam</strong></p>
+    <button id="close-donation">Close</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

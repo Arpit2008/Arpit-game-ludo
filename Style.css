@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(15, 50px);
+  grid-template-rows: repeat(15, 50px);
+  gap: 1px;
+  margin: 20px auto;
+  width: 800px;
+  height: 800px;
+}
+
+#board div {
+  width: 50px;
+  height: 50px;
+  background-color: #f4f4f4;
+}
+
+#dice-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#donate-button {
+  background-color: #f37254;
+  margin-top: 20px;
+}
+
+#donation-info {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#close-donation {
+  background-color: #ff6347;
+}
